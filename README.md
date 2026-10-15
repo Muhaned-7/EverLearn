@@ -2,6 +2,10 @@
 
 A responsive online learning platform where users can explore courses, browse categories, and discover expert instructors, built with HTML, CSS, and JavaScript.
 
+## 🌐 Live Demo
+
+[View Live Demo](https://muhaned-7.github.io/EverLearn/)
+
 ## 📌 About the Project
 
 EverLearn is a front-end web development project created to practice and improve web development skills. It features a clean, modern design with a blue color scheme and a responsive layout for desktop, tablet, and mobile devices.
@@ -37,6 +41,11 @@ EverLearn/
 │   └── style.css
 ├── js/
 │   └── main.js
+├── webfonts/
+│   ├── fa-brands-400.woff2
+│   ├── fa-regular-400.woff2
+│   ├── fa-solid-900.woff2
+│   └── fa-v4compatibility.woff2
 ├── images/
 │   ├── everlearn-logo.png
 │   ├── hero-image.jpg
