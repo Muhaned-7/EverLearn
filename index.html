@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EverLearn</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="#">
+          <img src="images/everlearn-logo.png" alt="EverLearn logo" />
+        </a>
+        <button class="menu-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <nav class="nav-links">
+          <a href="#home" class="active">Home</a>
+          <a href="#courses">Courses</a>
+          <a href="#categories">Categories</a>
+          <a href="#instructors">Instructors</a>
+          <a href="#stats">Stats</a>
+        </nav>
+        <div class="actions">
+          <button class="log-in-btn">Log In</button>
+          <button class="sign-up-btn">Sign Up</button>
+          <div class="search-box">
+            <button class="search-btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <input type="search" placeholder="Search courses" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1>Learn New Skills Online with Top Educators</h1>
+            <p>
+              Access thousands of courses from industry experts. Learn at your
+              own pace, anytime, anywhere.
+            </p>
+            <a href="#" class="courses-btn">Explore Courses</a>
+            <a href="#" class="how-it-works-btn">How it Works</a>
+            <div class="hero-stats">
+              <div class="stat">
+                <h3>10K+</h3>
+                <p>Courses</p>
+              </div>
+              <div class="stat">
+                <h3>500K+</h3>
+                <p>Students</p>
+              </div>
+              <div class="stat">
+                <h3>1K+</h3>
+                <p>Instructors</p>
+              </div>
+            </div>
+          </div>
+          <img src="images/hero-image.jpg" alt="" />
+        </div>
+      </section>
+      <section class="featured-courses" id="courses">
+        <div class="container">
+          <div class="heading">
+            <div class="text">
+              <h2>Featured Courses</h2>
+              <p>Most popular courses this month</p>
+            </div>
+            <a href="#">View All Courses</a>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <img src="images/featured-course-section 1.jpg" alt="" />
+              <div class="content">
+                <h3>Complete Web Development</h3>
+                <p>John Smith</p>
+                <div class="info">
+                  <span>
+                    <i
+                      class="fa-solid fa-star"
+                      style="color: rgb(255, 212, 59)"
+                    ></i>
+                    <span>4.7</span>
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-user"></i>
+                    <span>13.5</span>
+                  </span>
+                  <span>
+                    <i class="fa-regular fa-clock"></i>
+                    <span>60h</span>
+                  </span>
+                </div>
+                <div class="price">
+                  <span>$49.99</span>
+                  <button class="buy-btn">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <img src="images/featured-course-section 2.jpg" alt="" />
+              <div class="content">
+                <h3>UI/UX Design</h3>
+                <p>Sarah Martinez</p>
+                <div class="info">
+                  <span>
+                    <i
+                      class="fa-solid fa-star"
+                      style="color: rgb(255, 212, 59)"
+                    ></i>
+                    <span>4.9</span>
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-user"></i>
+                    <span>8.5</span>
+                  </span>
+                  <span>
+                    <i class="fa-regular fa-clock"></i>
+                    <span>21h</span>
+                  </span>
+                </div>
+                <div class="price">
+                  <span>$34.99</span>
+                  <button class="buy-btn">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <img src="images/featured-course-section 3.jpg" alt="" />
+              <div class="content">
+                <h3>Business Strategy Fundamentals</h3>
+                <p>Michael Brown</p>
+                <div class="info">
+                  <span>
+                    <i
+                      class="fa-solid fa-star"
+                      style="color: rgb(255, 212, 59)"
+                    ></i>
+                    <span>4.5</span>
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-user"></i>
+                    <span>9</span>
+                  </span>
+                  <span>
+                    <i class="fa-regular fa-clock"></i>
+                    <span>36h</span>
+                  </span>
+                </div>
+                <div class="price">
+                  <span>$44.99</span>
+                  <button class="buy-btn">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="categories" id="categories">
+        <div class="container">
+          <div class="heading">
+            <h2>Browse Top Categories</h2>
+            <p>Explore our most popular course categories</p>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <img src="images/category_1.png" alt="" />
+              <h3>Design</h3>
+              <p>245 Courses</p>
+            </div>
+            <div class="box">
+              <img src="images/category_2.png" alt="" />
+              <h3>Development</h3>
+              <p>354 Courses</p>
+            </div>
+            <div class="box">
+              <img src="images/category_3.png" alt="" />
+              <h3>Business</h3>
+              <p>194 Courses</p>
+            </div>
+            <div class="box">
+              <img src="images/category_4.png" alt="" />
+              <h3>Marketing</h3>
+              <p>286 Courses</p>
+            </div>
+            <div class="box">
+              <img src="images/category_5.png" alt="" />
+              <h3>Photography</h3>
+              <p>310 Courses</p>
+            </div>
+            <div class="box">
+              <img src="images/category_6.png" alt="" />
+              <h3>Music</h3>
+              <p>473 Courses</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="instructors" id="instructors">
+        <div class="container">
+          <div class="heading">
+            <h2>Top Instructors</h2>
+            <p>Learn from industry experts and professionals</p>
+          </div>
+          <div class="cards">
+            <div class="card">
+              <img src="images/instructors-1.jpg" alt="" />
+              <h3>Sarah Johnson</h3>
+              <p>UI/UX Designer</p>
+              <div class="info">
+                <span class="students">
+                  <span>12k</span>
+                  <h5>Students</h5>
+                </span>
+                <span class="courses">
+                  <span>8</span>
+                  <h5>Courses</h5>
+                </span>
+              </div>
+              <span class="star">
+                <i
+                  class="fa-solid fa-star"
+                  style="color: rgb(255, 212, 59)"
+                ></i>
+                <span>4.8</span>
+              </span>
+            </div>
+            <div class="card">
+              <img src="images/instructors-2.jpg" alt="" />
+              <h3>Michael Chen</h3>
+              <p>Full Stack Developer</p>
+              <div class="info">
+                <span class="students">
+                  <span>20k</span>
+                  <h5>Students</h5>
+                </span>
+                <span class="courses">
+                  <span>16</span>
+                  <h5>Courses</h5>
+                </span>
+              </div>
+              <span class="star">
+                <i
+                  class="fa-solid fa-star"
+                  style="color: rgb(255, 212, 59)"
+                ></i>
+                <span>5</span>
+              </span>
+            </div>
+            <div class="card">
+              <img src="images/instructors-3.jpg" alt="" />
+              <h3>David Kim</h3>
+              <p>Data Scientist</p>
+              <div class="info">
+                <span class="students">
+                  <span>17k</span>
+                  <h5>Students</h5>
+                </span>
+                <span class="courses">
+                  <span>10</span>
+                  <h5>Courses</h5>
+                </span>
+              </div>
+              <span class="star">
+                <i
+                  class="fa-solid fa-star"
+                  style="color: rgb(255, 212, 59)"
+                ></i>
+                <span>4.9</span>
+              </span>
+            </div>
+            <div class="card">
+              <img src="images/instructors-4.jpg" alt="" />
+              <h3>Emily Rodriguez</h3>
+              <p>Marketing Expert</p>
+              <div class="info">
+                <span class="students">
+                  <span>8k</span>
+                  <h5>Students</h5>
+                </span>
+                <span class="courses">
+                  <span>14</span>
+                  <h5>Courses</h5>
+                </span>
+              </div>
+              <span class="star">
+                <i
+                  class="fa-solid fa-star"
+                  style="color: rgb(255, 212, 59)"
+                ></i>
+                <span>4.5</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="stats" id="stats">
+        <div class="container">
+          <div class="stat">
+            <div class="stat-number">10,000+</div>
+            <div class="stat-label">Online Courses</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">500K+</div>
+            <div class="stat-label">Active Students</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">1,000+</div>
+            <div class="stat-label">Expert Instructors</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">95%</div>
+            <div class="stat-label">Success Rate</div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-grid">
+            <div class="footer-col">
+              <div class="brand">
+                <img src="images/everlearn-logo.png" alt="" />
+              </div>
+              <p class="brand-text">
+                Empowering learners worldwide with quality education and expert
+                instruction.
+              </p>
+            </div>
+            <div class="footer-col">
+              <h4>Company</h4>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Resources</h4>
+              <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Tutorials</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Legal</h4>
+              <ul>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+                <li><a href="#">Accessibility</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            &copy; 2025 EverLearn. All rights reserved.
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
