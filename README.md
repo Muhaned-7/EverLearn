@@ -4,7 +4,7 @@ A responsive online learning platform where users can explore courses, browse ca
 
 ## 🌐 Live Demo
 
-[View Ovlira Website](https://muhaned-7.github.io/EverLearn/)
+[View EverLearn Website](https://muhaned-7.github.io/EverLearn/)
 
 ## 📌 About the Project
 
